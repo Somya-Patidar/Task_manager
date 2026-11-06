@@ -13,4 +13,5 @@ def delete_task(task):
     if task in tasks:
         tasks.remove(task)
         print(f"Task: {task} deleted successfully.")
-
+        print("Updated task list:")
+        show()
